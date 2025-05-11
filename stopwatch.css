@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 90%);
+    background-image: url("./Images/office-desktop-with-clock.jpg");
+    background-size: cover;
+    background-position: left;
+    opacity: 0.8;
+}
+h2{
+    font-size: 3rem;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 3rem;
+    text-decoration: underline;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+     align-items: center; 
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    background-image: linear-gradient(to top right, rgb(26, 27, 53), rgba(242, 244, 244, 0.456));
+    min-height: 45vh;
+    min-width: 70vw;
+    box-shadow: 0px 0px 30px 0px rgba(82, 204, 253, 0.614);
+} 
+#display{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    padding: 20px 0px;
+    font-weight: bold;
+    text-shadow: 3px 3px 1px rgba(121, 119, 119, 0.434);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2rem;
+    color: #ffd571;
+}
+
+  .btnall button{
+    min-width: 80px;
+    border: none;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 5px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+#startbtn{
+    background-color: hsl(120, 100%, 25%);
+    margin-left: 8px;
+}
+
+#startbtn:hover{
+    background-color: hsl(120, 100%, 35%);
+}
+
+/* For Stop Button */
+#stopbtn{
+    background-color: hsl(0, 94%, 39%);
+}
+#stopbtn:hover{
+    background-color: hsl(0, 94%, 60%);
+}
+
+
+/* For Reset Button */
+#resetbtn{
+    background-color: hsl(199, 94%, 50%);
+}
+
+#resetbtn:hover{
+    background-color: hsl(199, 94%, 60%);
+}
